@@ -11,7 +11,7 @@ The purpose of this guide, is to provide you with a PoC of controlling an automa
 ### Assumptions.
 At this point you will have an Unix instance where is going to be executed the code. You problem consist in the next premises:
 1. You need to execute in an automated way certain jar file.
-2. You need to schedule the execution of this routine, in a scheduled way.
+2. You need to schedule the execution of this routine.
 3. If an instance of the program is running, you should not fire another one.
 4. Just when there are no instances running, you're going to fire a new one.
 5. You will trust in the PID, located in the PID.txt file.
